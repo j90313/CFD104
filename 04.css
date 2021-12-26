@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* LOGO+主選單 */
+.header{
+    width: 100%;
+    background-color: #FFFED9;
+    position:fixed;
+    top:0;
+    z-index: 1;
+}
+.header a{
+    text-decoration: none;
+    display: inline-block;
+}
+.header  nav  a{
+    position: relative;
+    right : 10%;
+    padding-right: 30px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header  nav  a:hover{
+    background-color: #fff;
+}
+.header img{
+    width: 50px;
+    margin-top: 10px;
+}   
+.header nav{
+    text-align: right;
+    position: relative;
+    right: 10px;
+    width: 100%;
+}
+.header nav a{
+    margin-left: 30px;
+    color: #222;
+}
+.logo{
+    display: flex;
+}
+.logo a{
+    color: #222;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 20px;
+    
+}
+.logoname{
+    width: 100%;
+    margin-left: 50px;
+    position: relative;
+    font-weight: bolder;
+} 
+.login{
+    display:block;
+    width: 30%;
+    justify-content: flex-end;
+}
+.login a:nth-child(1){
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 15px;
+    background-color: #fff; 
+}
+.login img{
+    width: 20px;
+    height: 20px;
+}
+.wrap img{
+    width: 100%;
+    height: 600px;
+}
+/* /////////////////線上訂位////////////// */
+.online{
+    background-color: #6661;
+    /* display: flex; */
+    justify-content: center;
+    margin:auto;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 50px;
+    border-radius: 300px;
+    width: 1200px;
+    padding: 50px;
+}
+.inputbox{
+    background-color: #FFFED9;
+    width: 500px;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 2px #aaa9;
+    margin: auto;
+    margin-top: 40px;
+}
+.inputbox h3{
+    font-size: 20px;
+    color: #0009;
+}
+.inputbox input{
+    border-radius: 3px;
+    border: none;
+    padding: 10px 10px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    margin: 10px 0px;
+    background-color: #ddd9;
+}
+.inputbox select{
+    border-radius: 3px;
+    border: none;
+    padding: 3px 10px;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.inputbox button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.inputbox button img{
+    width: 100px;
+    height: 100px;
+    transform:rotate(5deg);
+}
+/* //////////////底部///////////////// */
+.footer{
+    width: 97.35%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* position: fixed;
+    bottom: 0; */
+}
+.fttxt a{
+    width: 300px;
+    text-decoration: none;
+    color: #222;
+}
+.fb{
+    margin-left: 30px;
+}
+.fb a{
+    text-decoration: none;
+}
+.fb img{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* LOGO+主選單 */
+.header{
+    width: 100%;
+    background-color: #FFFED9;
+    position:fixed;
+    top:0;
+    z-index: 1;
+}
+.header a{
+    text-decoration: none;
+    display: inline-block;
+}
+.header  nav  a{
+    position: relative;
+    right : 10%;
+    padding-right: 30px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header  nav  a:hover{
+    background-color: #fff;
+}
+.header img{
+    width: 50px;
+    margin-top: 10px;   
+}
+.header nav{
+    text-align: right;
+    position: relative;
+    right: 10px;
+    width: 100%;
+}
+.header nav a{
+    margin-left: 30px;
+    color: #222;
+}
+.logo{
+    display: flex;
+}
+.logo a{
+    color: #222;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 20px;
+}
+.logoname{
+    width: 100%;
+    margin-left: 50px;
+    position: relative;
+    font-weight: bolder;
+} 
+.login{
+    display:block;
+    width: 30%;
+    justify-content: flex-end;
+}
+.login a:nth-child(1){
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 15px;
+    background-color: #fff; 
+}
+.login img{
+    width: 20px;
+    height: 20px;
+}
+.wrap img{
+    width: 100%;
+    height: 600px;
+}
+/* /////////////關於我們//////////// */
+
+.about{
+    width: 1200px;
+    padding: 20px;
+    background-color: #fffed9;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 150px;
+}
+.aboutme{
+    display: flex;
+}
+.about h1{
+    text-align: center;
+    font-size: 60px ;
+    opacity: 30%;
+}
+.aboutme p{
+    text-align: start;
+    display: block;
+    width: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 40px;
+}
+.aboutimg{
+    width: 360px;
+    height: 360px;
+    background-color: #f00;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 100px;
+    background: url(img/room.jpg);
+    background-repeat: no-repeat;
+}
+.pinpie{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.insist{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.indough{
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+.indough img{
+    position: relative;
+    left: -120px;
+    vertical-align: top;
+}
+.intxt{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #222d;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: .5s;
+}
+.intxt h2{
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #ddd;
+    line-height: 2;
+    margin: 20px 0px;
+    padding-right: 30px;
+}
+.intxt p{
+    display: inline-block;
+    /* box-sizing: border-box; */
+    padding-right: 20px;
+    margin: 20px 0px;
+    font-size: 18px;
+    color: #ddd;
+    line-height: 2;
+}
+.intxt:hover{
+    opacity: 1;
+}
+.inmeat{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    background-color: #aaf;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.inmeat img{
+    position: relative;
+    left: -220px;
+    top:-100px;
+    vertical-align: top;
+}
+.intaste{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #afa;
+    position: relative;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.intaste img{
+    position: relative;
+    left: -120px;
+    top:-100px
+}
+.big h1{
+    text-align: center;
+    margin-top: 100px;  
+    font-size: 42px;
+    border-bottom: 1px solid #999;
+}
+.big p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+}
+/* ////////////底部///////////////// */
+.footer{
+    width: 97.35%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* margin-top: 50px; */
+    /* position: fixed;
+    bottom: 0; */
+}
+.fttxt a{
+    width: 300px;
+    text-decoration: none;
+    color: #222;
+}
+.fb{
+    margin-left: 30px;
+}
+.fb a{
+    text-decoration: none;
+}
+.fb img{
+    width: 30px;
+    height: 30px;
+
+}

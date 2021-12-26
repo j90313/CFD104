@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* LOGO+主選單 */
+.header{
+    width: 100%;
+    background-color: #FFFED9;
+    position:fixed;
+    top:0;
+    z-index: 1;
+}
+.header a{
+    text-decoration: none;
+    color: #222;
+    font-size: 30px;
+    display: inline-block;
+}
+.header  nav  a{
+    position: relative;
+    right : 10%;
+    padding-right: 30px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header  nav  a:hover{
+    background-color: #fff;
+}
+.header img{
+    width: 50px;
+    margin-top: 10px;   
+}
+.header nav{
+    text-align: right;
+    position: relative;
+    right: 10px;
+    width: 100%;
+}
+.header nav a{
+    margin-left: 30px;
+}
+.logo{
+    display: flex;
+}
+.logo a{
+    color: #222;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 20px;
+    
+}
+.logoname{
+    width: 100%;
+    margin-left: 50px;
+    position: relative;
+    font-weight: bolder;
+} 
+.login{
+    display:block;
+    width: 30%;
+    justify-content: flex-end;
+}
+.login a:nth-child(1){
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 15px;
+    background-color: #fff; 
+}
+.login img{
+    width: 20px;
+    height: 20px;
+}
+.wrap img{
+    width: 100%;
+    height: 600px;
+}
+/* //////////////////地圖/////////////// */
+.mapbgc{
+    width: 1200PX;
+    height: 500px;
+    background-color: #fffeda;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 150px;
+    position: relative;
+}
+.mapbgc h1{
+    text-align: center;
+    font-size: 60px;
+    color: #7779;
+    line-height: 1.5;
+}
+.mapbgc h1::before{
+    content: '';
+    height: 2px;
+    background-color: #6666;
+    width: 35%;
+    position: absolute;
+    top:45px;
+    left: 30px;
+}
+.mapbgc h1::after{
+    content: '';
+    height: 2px;
+    background-color: #6666;
+    width: 35%;
+    position: absolute;
+    top:45px;
+    right: 30px;
+}
+.mapleftright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mapimg{
+    width: 50%;
+    height: 400px;
+}
+.mapimg img{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.maptxt{
+    text-align: center;
+    line-height: 50px;
+    margin: 0 30px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+.maptxt h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.maptxt h3::after{
+    content: '';
+    height: 3px;
+    display: block;
+    background-color:#ff4b5f66;
+}
+.maptxt p{
+    text-align: start;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* ///////////////底部/////////////// */
+.footer{
+    width: 97.35%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+    /* position: fixed; */
+    bottom: 0;
+}
+.fttxt a{
+    width: 300px;
+    text-decoration: none;
+    color: #222;
+}
+.fb{
+    margin-left: 30px;
+}
+.fb a{
+    text-decoration: none;
+}
+.fb img{
+    width: 30px;
+    height: 30px;
+
+}

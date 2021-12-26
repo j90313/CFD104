@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="01.css">
+    <style>
+    </style>
+</head>
+<body>
+    <!-- /////////主標題+LOGO////////// -->
+    <div class="header">
+        <div class="logo">
+            <a href="#"><img src="img/logo.png" alt="BB"></a>
+            <a class="logoname" href="#" ><h2>Burger ＆ Beef</h2>
+                </a>
+                <div class="login">
+                    <a href="#">加入會員</a>
+                    <a href="#"><img src="img/shopping.png" alt=""></a>
+                </div>
+        </div>  
+        <nav>
+            <a href="05.html">餐點介紹</a>
+            <a href="06.html">最新消息</a>
+            <a href="04.html">線上訂位</a>
+            <a href="02.html">店家位置</a>
+            <a href="03.html">關於我們</a>
+            <a href="07.html">常見問題</a>
+        </nav>
+    </div> 
+    
+    <div class="wrap" style="max-width:1080px;height: 500px;" >
+        <img class="bugerwrap" src="img/burgerwrap1.jpg" style="width:100%">
+        <img class="bugerwrap" src="img/room1.jpg" style="width:100%">
+        <img class="bugerwrap" src="img/burger66.jpg" style="width:100%">
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("bugerwrap");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2500); 
+        }
+        </script>
+    <!-- /////////餐點介紹////////// -->
+    <div class="menu">
+        <div class="menutitle">
+            <h2>餐點介紹</h2>
+        </div>
+        <div class="menuanimation">
+            <div class="menuimgcow">
+                <a href="" ><img width="300" height="150" src="img/burger1.jpg" alt=""></a>
+            </div>
+            <div class="menuimgsheep">
+                <a href="" ><img img width="300" height="150" src="img/burger2.jpg" alt=""></a>
+            </div>
+            <div class="menuimgpig">
+                <a href="" ><img img width="400" height="150" src="img/burger3.jpg" alt=""></a>
+            </div>
+            <div class="menuimgchicken">
+                <a href=""><img img width="300" height="150" src="img/burger4.jpg" alt=""></a>
+            </div>
+            <div class="menuimgdrink">
+                <a href=""><img img width="300" height="150" src="img/burger5.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- /////////餐點底部三圖////////// -->
+    <div class="menufoot">
+        <div class="menufood">
+            <img src="img/burger5.jpg" alt="">
+            <h3>風味辣雞堡套餐</h3>
+            <h4>$199</h4>
+            <a href="#">加入購物車</a>
+        </div>
+        <div class="menufood">
+            <img src="img/burger3.jpg" alt="">
+            <h3>蜜汁羊排</h3>
+            <h4>$299</h4>
+            <a href="#">加入購物車</a>
+        </div>
+        <div class="menufood">
+            <img src="img/burger2.jpg" alt="">
+            <h3>風味豬排起司堡套餐</h3>
+            <h4>$199</h4>
+            <a href="#">加入購物車</a>
+        </div>
+    </div>
+        <div class="moremenu">
+            <a href="#"><img src="img/more1.png" alt=""></a>
+        </div>
+
+        <!-- /////////最新消息////////// -->
+
+        <div class="acttitle">
+            <h2>最新消息</h2>
+            </div>
+
+        <div class="activity">
+            <div class="actgift">
+                <a href="#"><img width="300" height="300" src="img/octt.jpg" alt=""></a>
+                <h3>!!特別邀請!! 十月天來餐廳演唱!!!</h3>
+                <p>歡慶聖誕節，12/25當日特別邀請實力樂團『十月天』來餐廳獻唱，當日唱歌歌曲為 "偷渡客"、"大太陽"、"想不到了＂、"繼續掰"、"不行了啦"，誠摯邀請大家一同來現場享用美食</p>
+            </div>
+            <div class="actgift">
+                <a href="#"><img width="300" height="300" src="img/cooffe.jpg" alt=""></a>
+                <h3>!!新品!!典藏精選哥倫比亞咖啡豆</h3>
+                <p>新品哥倫比亞咖啡現磨現泡現喝，口味獨特香氣芬芳，讓人置身於哥倫比亞的異國，體會當地師傅手沖咖啡的技術。</p>
+            </div>
+            <div class="actgift">
+                <a href="#"><img width="300" height="300" src="img/gifft.jpg" alt=""></a>
+                <h3>免運費，外送有福啦!!</h3>
+                <p>即日起至12/31，外送金額滿$699，即刻享有免外送費方案</p>
+            </div>
+        </div>
+        <div class="actmore">
+            <a href="#"><img src="img/more1.png" alt=""></a>
+        </div>
+        <!-- /////////底部說明////////// -->
+        <div class="footer">
+            <div class="fttxt">
+                <a href="">徵才資訊</a>
+                <a href="">品牌介紹</a>
+                <a href="">隱私權宣告</a>
+            </div>
+            <div class="fb">
+                <a href="">
+                    <img src="img/fb.png" alt="">
+                </a>
+                <a href="">
+                    <img src="img/ig.png" alt="">
+                </a>
+            </div>
+        </div>
+</body>
+</html>

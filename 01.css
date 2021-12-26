@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* LOGO+主選單 */
+.header{
+    width: 100%;
+    position: relative;
+    background-color: #FFFED9;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+}
+.header a{
+    text-decoration: none;
+    color: #222;
+    font-size: 30px;
+    display: inline-block;
+}
+.header  nav  a{
+    position: relative;
+    right : 10%;
+    padding-right: 30px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header  nav  a:hover{
+    background-color: #fff;
+}
+.header img{
+    width: 50px;
+    margin-top: 10px;   
+}
+.header nav{
+    text-align: right;
+    position: relative;
+    right: 10px;
+    width: 100%;
+}
+.header nav a{
+    margin-left: 30px;
+}
+.logo{
+    display: flex;
+}
+.logo a{
+    color: #222;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 20px;
+    
+}
+.logoname{
+    width: 100%;
+    margin-left: 50px;
+    position: relative;
+    font-weight: bolder;
+} 
+.login{
+    display:block;
+    width: 30%;
+    justify-content: flex-end;
+}
+.login a:nth-child(1){
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 15px;
+    background-color: #fff; 
+}
+.login img{
+    width: 20px;
+    height: 20px;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 160px;
+    padding: 20px 0px;
+}
+.wrap img{
+    width: 1200px;
+    height: 500px;
+}
+
+/* 餐點介紹 */
+.menu{
+    margin-top: 100px;
+}
+.menu h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px ;
+}
+.menu h2::before{
+    content: '';
+    border-top: 10px solid #ddda;
+    border-left: 10px solid #bbb0;
+    border-right: 10px solid #bbb0;
+    width: 600px;
+    display: flex;
+    position: relative;
+    top : 40px
+}
+.menu h2::after{
+    content: '';
+    border-top: 10px solid #ddda;
+    border-left: 10px solid #bbb0;
+    border-right: 10px solid #bbb0;
+    width: 600px;
+    display: flex;
+    position: relative;
+    right:-600px
+}
+.menuanimation{
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+    background: url(img/burger3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    border-radius: 10px ;
+}
+.menuimgcow{
+    width: 300px;
+    height: 75px;
+    background-color: #ff0;
+    overflow: hidden;
+    border-radius: 0px 0px 150px 0px;
+    position: absolute;
+    top:20px;
+    left:-20px;
+    opacity: 50%;
+}
+.menuimgcow img{
+    position: relative;
+    top : -50px;
+}
+.menuimgsheep{
+    width: 300px;
+    height: 75px;
+    background-color: #ff0;
+    overflow: hidden;
+    border-radius: 0px 0px 150px 0px;
+    position: absolute;
+    top:140px;
+    left:-20px;
+    opacity: 50%;
+}
+.menuimgpig{
+    width: 400px;
+    height: 75px;
+    background-color: #ff0;
+    overflow: hidden;
+    border-radius: 0px 0px 150px 0px;
+    position: absolute;
+    top:260px;
+    left:-20px;
+}
+.menuimgpig img{
+    position: relative;
+    top : -30px;
+}
+.menuimgchicken{
+    width: 300px;
+    height: 75px;
+    background-color: #ff0;
+    overflow: hidden;
+    border-radius: 0px 0px 150px 0px;
+    position: absolute;
+    top:380px;
+    left:-20px;
+    opacity: 50%;
+}
+.menuimgchicken img{
+    position: relative;
+    top: -30px;
+}
+.menuimgdrink{
+    width: 300px;
+    height: 75px;
+    background-color: #ff0;
+    overflow: hidden;
+    border-radius: 0px 0px 150px 0px;
+    position: absolute;
+    top:500px;
+    left:-20px;
+    opacity: 50%;
+}
+.menuimgdrink img{
+    position: relative;
+    top:-60px;
+}
+.menufoot{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    margin-top: -300px;
+
+}
+.menufoot img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.menufood{
+    text-align: start;
+    padding: 20px;
+    line-height: 50px;
+    border-radius: 10px ;
+    margin: auto;
+    box-shadow:5px 3px 1px 1px #ccc;
+}
+.menufood h3{
+    font-size: 30px;
+}
+.menufood h4{
+    font-size: 30px;
+}
+.menufood a{
+    width: 100px;
+    text-decoration: none;
+    background-color: #f45;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.moremenu{
+    display: inline-block;
+}
+.moremenu a{
+    right: -1315px;
+    top:10px;
+    position: relative;
+}
+.acttitle{
+    margin-top: 100px;
+}
+.activity{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-sizing: border-box;
+}
+.acttitle h2{
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    /* margin-top: 200px; */
+}
+.acttitle h2::before{
+    content: '';
+    border-top: 10px solid #ddda;
+    border-left: 10px solid #bbb0;
+    border-right: 10px solid #bbb0;
+    width: 600px;
+    display: flex;
+    position: relative;
+    top : 40px
+}
+.acttitle h2::after{
+    content: '';
+    border-top: 10px solid #ddda;
+    border-left: 10px solid #bbb0;
+    border-right: 10px solid #bbb0;
+    width: 600px;
+    display: flex;
+    position: relative;
+    right:-600px
+}
+.actgift{
+    width: 100%;
+    line-height:30px;
+    padding: 20px;
+    margin-left:5px;
+    margin-right: 5px;
+    border-radius: 10px ;
+    box-shadow:5px 3px 1px 1px #ccc;    
+}
+.actgift h3{
+    text-align: center;
+}
+.actgift img{
+    border-radius: 10px;
+    margin-left: 91.5px;
+}
+.actgift p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.actmore img{
+    position: relative;
+    right: -1300px;
+    top:10px
+}
+.footer{
+    width: 97.35%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.fttxt a{
+    width: 300px;
+    text-decoration: none;
+    color: #222;
+}
+.fb{
+    margin-left: 30px;
+}
+.fb a{
+    text-decoration: none;
+}
+.fb img{
+    width: 30px;
+    height: 30px;
+
+}
